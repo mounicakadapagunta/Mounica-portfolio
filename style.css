@@ -369,7 +369,7 @@ footer{
 	font-size:20px;
 	color:#2B2B2B;
 }
-@media(max-width:1075px){
+ @media(max-width:1024px){ /*------------------------------- */
 	*{
 		box-sizing: border-box;
 	}
@@ -380,6 +380,7 @@ footer{
 	margin-top: 250px;
 	
 }
+
 .section{
 	height:20vh;
 }
@@ -433,7 +434,7 @@ footer{
 		width: 160px;
 	}
  }
-@media(max-width:734px){
+@media(max-width:1024px){
 	
 	section{
 		background-color:white;
@@ -442,7 +443,7 @@ footer{
 	}
 	
 	.text-container p:nth-child(2){
-		line-height: 40px;
+		line-height: 60px;
 		margin: 0px;
 		padding: 0px;
 		
@@ -451,6 +452,7 @@ footer{
 			
 	margin-left: 50px;
 	margin-top: 130px;
+	font-size: 12px;
 	}
 	nav ul{
 		margin: 0px;
