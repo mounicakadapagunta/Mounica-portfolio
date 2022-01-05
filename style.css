@@ -433,7 +433,7 @@ footer{
 		width: 160px;
 	}
  }
-@media(max-width:750px){
+@media(max-width:734px){
 	
 	section{
 		background-color:white;
@@ -538,5 +538,7 @@ footer{
 	}
 	
 }
+
+
 
  
