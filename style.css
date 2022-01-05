@@ -36,8 +36,9 @@ nav ul li a{
     font-family: myriad pro regular;
     color: #505050;
     font-size: 15px;
-    font-weight:700;
+    
 }
+
 
 .active{
     font-weight:bold;
@@ -50,11 +51,6 @@ nav ul li a{
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-
-.name{
-	font-size: 24px;
 } 
 
 .text-container p:nth-child(1){
@@ -107,8 +103,8 @@ button:active{
 }
 
 .about-container{
-	width:80%;
-	height:530px;
+	width:90%;
+	height:650px;
 	background:#ffffff;
 	border-radius:20px;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
@@ -157,32 +153,46 @@ button:active{
 }
 b{
 	color:rgb(21, 136, 230);
+	font-size: 18px;
+}
+.name{
+	color: #000000;
+	font-size:25px;
 }
 .services{
-	height:550px;
+	height:650px;
 	background-color:#b8b2b2;
 	padding: 2% 10% 0px 10%;
 }
 .services-text p:nth-child(1){
 	font-family: calibri;
 	font-weight:bold;
-	color:#8d8383;
-	font-size:30px;
+	color:#020202;
+	font-size:35px;
+	justify-content: center;
 	line-height:0px;
 }
 .services-text p:nth-child(2){
+	font-family:poppins;
+	margin-left: -45%;
+	color:#3e3d3d;
+	font-size: 15px;
+	
+	line-height: px;
+}
+.services-text p:nth-child(3){
 	font-family:calibri;
 	font-weight: bold;
 	color:#3e3d3d;
 	font-size: 15px;
 	line-height: 5px;
 }
-.services-text p:nth-child(3){font-family:calibri;
-color:#7e7d7d;
+.services-text p:nth-child(4){font-family:calibri;
+color:#641515;
 font-size: 5px;}
 .services-text{
 	width: 500px;
-	margin:50px 0px;
+	margin:70px 45%;
 }
 .box-container{
 	display:flex;
@@ -466,7 +476,7 @@ footer{
 		display: inline;
 		align-items:center;
          height:70px;
-         background-color:rgb(207, 207, 207);
+         background-color:rgb(196, 181, 181);
         box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
         padding:2px 5%;
 	}
@@ -475,9 +485,9 @@ footer{
 	}
 	nav ul li a{
 		font-family: calibri;
-		font-size: 1.4em;
+		font-size: 20px;
 		text-transform: uppercase;
-		color:#e6e0e0;
+		color:#131212;
 	}
 	nav ul li a:hover{
 		color:#121212;
